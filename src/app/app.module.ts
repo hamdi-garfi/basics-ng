@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PwCheckComponent } from './module/login/components/pw-check/pw-check.component';
 import { DefaultComponent } from './module/home/components/default/default.component';
-import { LoginModule } from './module/login/login.module';
+import { LoginModule} from './module/login/login.module';
 
 @NgModule({
   declarations: [
