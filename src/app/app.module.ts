@@ -3,18 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { InputComponent } from './module/login/components/input/input.component';
 import { PwCheckComponent } from './module/login/components/pw-check/pw-check.component';
 import { DefaultComponent } from './module/home/components/default/default.component';
+import { LoginModule } from './module/login/login.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    InputComponent,
     PwCheckComponent,
     DefaultComponent
   ],
   imports: [
+    LoginModule,
     BrowserModule,
     AppRoutingModule
   ],
